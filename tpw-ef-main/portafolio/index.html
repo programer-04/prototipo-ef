@@ -1,0 +1,872 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carlos Mendoza Ríos | Portafolio Web - Estudiante UTP</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navegación -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#inicio" class="nav-logo">
+                <span class="logo-text">CM</span>
+            </a>
+            <button class="nav-toggle" id="navToggle">
+                <i class="bi bi-list"></i>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#inicio" class="nav-link">Inicio</a></li>
+                <li><a href="#sobre-mi" class="nav-link">Sobre Mí</a></li>
+                <li><a href="#educacion" class="nav-link">Educación</a></li>
+                <li><a href="#experiencia" class="nav-link">Experiencia</a></li>
+                <li><a href="#proyectos" class="nav-link">Proyectos</a></li>
+                <li><a href="#certificaciones" class="nav-link">Certificaciones</a></li>
+                <li><a href="#contacto" class="nav-link">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <div class="hero-image">
+                <img src="../foto2.jpg" alt="Pedro leon Reyes" class="profile-img">
+            </div>
+            <div class="hero-text">
+                <p class="hero-greeting">Hola, soy</p>
+                <h1 class="hero-name">Pedro Leon Reyes</h1>
+                <p class="hero-title">
+                    <i class="bi bi-mortarboard-fill"></i>
+                    Estudiante de Ingeniería de Sistemas e informatica
+                </p>
+                <p class="hero-university">Universidad Tecnológica del Perú - Sede Chimbote</p>
+                <p class="hero-description">
+                    Apasionado por el desarrollo de software, análisis de datos y soluciones tecnológicas innovadoras.
+                    Comprometido con el aprendizaje continuo y la excelencia profesional.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contacto" class="btn btn-primary">
+                        <i class="bi bi-envelope"></i>
+                        Contáctame
+                    </a>
+                    <a href="#proyectos" class="btn btn-secondary">
+                        <i class="bi bi-folder"></i>
+                        Ver Proyectos
+                    </a>
+                </div>
+                <div class="hero-social">
+                    <a href="https://github.com/programer-04" target="_blank" class="social-link" title="GitHub">
+                        <i class="bi bi-github"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/carlosmendozar" target="_blank" class="social-link" title="LinkedIn">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+                    <a href="mailto:U23246461@utp.edu.pe"  target="_blank"  class="social-link" title="Email">
+                        <i class="bi bi-envelope-fill"></i>
+                    </a>
+                </div> 
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="bi bi-chevron-double-down"></i>
+        </div>
+    </section>
+
+    <!-- Sobre Mí -->
+    <section id="sobre-mi" class="section">
+        <div class="container">
+            <h2 class="section-title">
+                <i class="bi bi-person-fill"></i>
+                Sobre Mí
+            </h2>
+            <div class="about-content">
+                <div class="about-card">
+                    <div class="about-text">
+                        <p>
+                            Soy <strong>Pedro Leon Reyes</strong>, estudiante de 5to ciclo de Ingeniería de Sistemas e informatica
+                            en la <strong>Universidad Tecnológica del Perú (UTP)</strong> - Sede Chimbote. Nacido y criado
+                            en la hermosa ciudad de Chimbote, Áncash.
+                        </p>
+                        <p>
+                            Mi pasión por la tecnología comenzó desde muy joven, lo que me llevó a especializarme en
+                            desarrollo de software, análisis de sistemas y gestión de bases de datos. Actualmente
+                            combino mis estudios con otras areas de interes, amplio mis conocimientos y analizo otras areas para poder implementar lo aprendido en areas tecnologicas del pais .
+                        </p>
+                        <p>
+                            Me considero una persona proactiva, responsable y con gran capacidad de trabajo en equipo.
+                            Siempre busco nuevos retos que me permitan crecer profesionalmente y aportar valor a las
+                            organizaciones.
+                        </p>
+                    </div>
+                    <div class="about-info">
+                        <div class="info-item">
+                            <i class="bi bi-geo-alt-fill"></i>
+                            <div>
+                                <span class="info-label">Ubicación</span>
+                                <span class="info-value">Chimbote, Áncash, Perú</span>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="bi bi-calendar-fill"></i>
+                            <div>
+                                <span class="info-label">Edad</span>
+                                <span class="info-value">19 años</span>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="bi bi-translate"></i>
+                            <div>
+                                <span class="info-label">Idiomas</span>
+                                <span class="info-value">Español (Nativo), Inglés (Basico)</span>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="bi bi-briefcase-fill"></i>
+                            <div>
+                                <span class="info-label">Disponibilidad</span>
+                                <span class="info-value">Tiempo completo / Practicas</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-container">
+                    <h3 class="skills-title">Habilidades Técnicas</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="bi bi-code-slash"></i>
+                            <span>Python</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="bi bi-filetype-java"></i>
+                            <span>Java</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="bi bi-filetype-js"></i>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="bi bi-database"></i>
+                            <span>SQL Server</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="bi bi-filetype-html"></i>
+                            <span>HTML/CSS</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="bi bi-bootstrap"></i>
+                            <span>Bootstrap</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="bi bi-git"></i>
+                            <span>Git</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="bi bi-diagram-3"></i>
+                            <span>UML</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Educación -->
+    <section id="educacion" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">
+                <i class="bi bi-book-fill"></i>
+                Educación
+            </h2>
+            <div class="timeline">
+                <!-- Universidad -->
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <i class="bi bi-mortarboard-fill"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Ingeniería de Sistemas e Informática</h3>
+                            <span class="timeline-date">2025 - Actualidad (5to Ciclo)</span>
+                        </div>
+                        <div class="timeline-institution">
+                            <img src="../image.png" alt="UTP" class="institution-logo">
+                            <div>
+                                <strong>Universidad Tecnológica del Perú (UTP)</strong>
+                                <span>Sede Chimbote - Áncash</span>
+                            </div>
+                        </div>
+                        <p class="timeline-description">
+                            Formación integral en desarrollo de software, bases de datos, redes, gestión de proyectos
+                            y metodologías ágiles. Tercio superior académico con promedio ponderado de 15.80.
+                        </p>
+                        <div class="timeline-tags">
+                            <span class="tag">Desarrollo de Software</span>
+                            <span class="tag">Base de Datos</span>
+                            <span class="tag">Redes</span>
+                            <span class="tag">Gestión de Proyectos</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Colegio Secundaria -->
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <i class="bi bi-building"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Educación Secundaria Completa</h3>
+                            <span class="timeline-date">2018 - 2022</span>
+                        </div>
+                        <div class="timeline-institution">
+                            <div class="institution-icon">
+                                <i class="bi bi-bank"></i>
+                            </div>
+                            <div>
+                                <strong>I.E. Artemio Del Solar Icochea</strong>
+                                <span>Santa - Áncash</span>
+                            </div>
+                        </div>
+                        <p class="timeline-description">
+                            Institución educativa emblemática fundada en 1825. Participé activamente en olimpiadas
+                            de Futol y ciencias, obteniendo buenas calificaciones y buen comportamiento .
+                            Graduado con diploma de excelencia académica.
+                        </p>
+                        <div class="timeline-tags">
+                            <span class="tag">Diploma de Honor</span>
+                            <span class="tag">Olimpiadas De Futbol Y Ciencias</span>
+                            <span class="tag">Liderazgo Estudiantil y Compromiso</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Colegio Primaria -->
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <i class="bi bi-backpack-fill"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Educación Primaria Completa</h3>
+                            <span class="timeline-date">2010 - 2015</span>
+                        </div>
+                        <div class="timeline-institution">
+                            <div class="institution-icon">
+                                <i class="bi bi-bank"></i>
+                            </div>
+                            <div>
+                                <strong>I.E. 88031 República Peruana</strong>
+                                <span>Chimbote - Áncash</span>
+                            </div>
+                        </div>
+                        <p class="timeline-description">
+                            Institución educativa pública reconocida por su excelencia académica y formación en valores.
+                            Destacado en concursos de conocimientos y actividades deportivas escolares.
+                        </p>
+                        <div class="timeline-tags">
+                            <span class="tag">Primer Puesto</span>
+                            <span class="tag">Concursos de Conocimiento</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experiencia Laboral -->
+    <section id="experiencia" class="section">
+        <div class="container">
+            <h2 class="section-title">
+                <i class="bi bi-briefcase-fill"></i>
+                Experiencia Laboral
+            </h2>
+            <div class="experience-grid">
+                <!-- Trabajo Actual -->
+                <div class="experience-card featured">
+                    <div class="experience-badge">Actual</div>
+                    <div class="experience-header">
+                        <div class="company-logo">
+                            <i class="bi bi-building"></i>
+                        </div>
+                        <div class="experience-info">
+                            <h3>Analista de Sistemas Jr.</h3>
+                            <p class="company-name">SIMA S.A. - Chimbote</p>
+                            <span class="experience-period">
+                                <i class="bi bi-calendar3"></i>
+                                Marzo 2024 - Actualidad
+                            </span>
+                        </div>
+                    </div>
+                    <div class="experience-body">
+                        <p>
+                            Servicio Industrial de la Marina S.A., empresa dedicada a la construcción y reparación naval.
+                            Como parte del equipo de TI, me encargo del análisis, desarrollo y mantenimiento de sistemas
+                            de información empresarial.
+                        </p>
+                        <ul class="experience-tasks">
+                            <li>Desarrollo y mantenimiento de módulos del sistema ERP interno</li>
+                            <li>Análisis de requerimientos y documentación técnica</li>
+                            <li>Soporte técnico nivel 2 a usuarios internos</li>
+                            <li>Gestión de base de datos SQL Server</li>
+                            <li>Automatización de reportes con Python</li>
+                        </ul>
+                        <div class="experience-tech">
+                            <span>C#</span>
+                            <span>.NET</span>
+                            <span>SQL Server</span>
+                            <span>Python</span>
+                            <span>Power BI</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Trabajo Anterior -->
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <div class="company-logo">
+                            <i class="bi bi-shop"></i>
+                        </div>
+                        <div class="experience-info">
+                            <h3>Asistente de Sistemas</h3>
+                            <p class="company-name">Machu Picchu Foods S.A.C. - Chimbote</p>
+                            <span class="experience-period">
+                                <i class="bi bi-calendar3"></i>
+                                Junio 2023 - Febrero 2024
+                            </span>
+                        </div>
+                    </div>
+                    <div class="experience-body">
+                        <p>
+                            Empresa del sector agroindustrial dedicada al procesamiento y exportación de productos.
+                            Colaboré en el área de sistemas brindando soporte técnico y desarrollo de soluciones.
+                        </p>
+                        <ul class="experience-tasks">
+                            <li>Configuración y mantenimiento de sistemas SCADA</li>
+                            <li>Soporte técnico a usuarios de planta y oficinas</li>
+                            <li>Mantenimiento preventivo de equipos de cómputo</li>
+                            <li>Desarrollo de macros en Excel para reportes</li>
+                        </ul>
+                        <div class="experience-tech">
+                            <span>SCADA</span>
+                            <span>Excel VBA</span>
+                            <span>Redes</span>
+                            <span>Windows Server</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Prácticas -->
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <div class="company-logo">
+                            <i class="bi bi-pc-display"></i>
+                        </div>
+                        <div class="experience-info">
+                            <h3>Practicante de TI</h3>
+                            <p class="company-name">DOIL International S.A.C. - Nuevo Chimbote</p>
+                            <span class="experience-period">
+                                <i class="bi bi-calendar3"></i>
+                                Enero 2023 - Mayo 2023
+                            </span>
+                        </div>
+                    </div>
+                    <div class="experience-body">
+                        <p>
+                            Empresa de servicios integrales. Primeras prácticas pre-profesionales donde adquirí
+                            experiencia en soporte técnico y gestión de sistemas de información.
+                        </p>
+                        <ul class="experience-tasks">
+                            <li>Soporte técnico de primer nivel</li>
+                            <li>Inventario y control de activos de TI</li>
+                            <li>Asistencia en Sistema Integrado de Gestión (SIG)</li>
+                            <li>Documentación de procesos técnicos</li>
+                        </ul>
+                        <div class="experience-tech">
+                            <span>Help Desk</span>
+                            <span>MS Office</span>
+                            <span>SIG</span>
+                            <span>Inventarios</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">
+                <i class="bi bi-folder-fill"></i>
+                Proyectos Destacados
+            </h2>
+            <div class="projects-grid">
+                <!-- Proyecto 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="bi bi-cart4"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Sistema de Ventas e Inventario</h3>
+                        <p>
+                            Aplicación de escritorio para gestión de ventas e inventario desarrollada para una
+                            pequeña empresa local de Chimbote. Incluye módulos de facturación, control de stock
+                            y reportes estadísticos.
+                        </p>
+                        <div class="project-tech">
+                            <span>Java</span>
+                            <span>MySQL</span>
+                            <span>Swing</span>
+                            <span>JasperReports</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/carlosmendozar/sistema-ventas" target="_blank" class="project-link">
+                                <i class="bi bi-github"></i>
+                                Código
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="bi bi-play-circle"></i>
+                                Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proyecto 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="bi bi-globe"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Portal Web Turístico Chimbote</h3>
+                        <p>
+                            Sitio web responsive que promociona los atractivos turísticos de Chimbote y alrededores.
+                            Incluye galería de imágenes, mapa interactivo y sistema de reservas básico.
+                        </p>
+                        <div class="project-tech">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                            <span>PHP</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/carlosmendozar/turismo-chimbote" target="_blank" class="project-link">
+                                <i class="bi bi-github"></i>
+                                Código
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="bi bi-box-arrow-up-right"></i>
+                                Ver Sitio
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proyecto 3 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="bi bi-robot"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Chatbot de Atención UTP</h3>
+                        <p>
+                            Bot conversacional para resolver consultas frecuentes de estudiantes de la UTP Chimbote.
+                            Implementado con procesamiento de lenguaje natural y base de conocimiento actualizable.
+                        </p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>NLTK</span>
+                            <span>Flask</span>
+                            <span>SQLite</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/carlosmendozar/chatbot-utp" target="_blank" class="project-link">
+                                <i class="bi bi-github"></i>
+                                Código
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proyecto 4 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="bi bi-graph-up-arrow"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Dashboard de Análisis Pesquero</h3>
+                        <p>
+                            Tablero interactivo para visualización de datos de la industria pesquera de Chimbote.
+                            Análisis de temporadas, especies y volúmenes de captura históricos.
+                        </p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Pandas</span>
+                            <span>Plotly</span>
+                            <span>Streamlit</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/carlosmendozar/dashboard-pesquero" target="_blank" class="project-link">
+                                <i class="bi bi-github"></i>
+                                Código
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="bi bi-bar-chart"></i>
+                                Dashboard
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proyecto 5 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="bi bi-phone"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>App Control de Asistencia</h3>
+                        <p>
+                            Aplicación móvil para registro de asistencia mediante código QR. Desarrollada como
+                            proyecto final del curso de Desarrollo Móvil en la UTP.
+                        </p>
+                        <div class="project-tech">
+                            <span>Flutter</span>
+                            <span>Dart</span>
+                            <span>Firebase</span>
+                            <span>QR Scanner</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/carlosmendozar/app-asistencia" target="_blank" class="project-link">
+                                <i class="bi bi-github"></i>
+                                Código
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proyecto 6 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="bi bi-file-earmark-text"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Generador de Reportes PDF</h3>
+                        <p>
+                            Herramienta web para generar reportes personalizados en PDF a partir de plantillas
+                            y datos de base de datos. Usado internamente en SIMA S.A.
+                        </p>
+                        <div class="project-tech">
+                            <span>Node.js</span>
+                            <span>Express</span>
+                            <span>PDFKit</span>
+                            <span>MongoDB</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/carlosmendozar/reportes-pdf" target="_blank" class="project-link">
+                                <i class="bi bi-github"></i>
+                                Código
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificaciones y Capacitaciones -->
+    <section id="certificaciones" class="section">
+        <div class="container">
+            <h2 class="section-title">
+                <i class="bi bi-award-fill"></i>
+                Certificaciones y Capacitaciones
+            </h2>
+            <div class="certifications-grid">
+                <!-- Certificación CIP -->
+                <div class="certification-card">
+                    <div class="cert-icon">
+                        <i class="bi bi-patch-check-fill"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3>Curso de Gestión de Proyectos con MS Project</h3>
+                        <p class="cert-institution">
+                            <i class="bi bi-building"></i>
+                            Colegio de Ingenieros del Perú - CD Áncash Chimbote
+                        </p>
+                        <p class="cert-date">
+                            <i class="bi bi-calendar3"></i>
+                            Octubre 2024 - 40 horas
+                        </p>
+                        <p class="cert-description">
+                            Capacitación en planificación, seguimiento y control de proyectos usando
+                            Microsoft Project. Certificado por el CIP CD Áncash.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Certificación 2 -->
+                <div class="certification-card">
+                    <div class="cert-icon">
+                        <i class="bi bi-patch-check-fill"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3>Fundamentos de Ciberseguridad</h3>
+                        <p class="cert-institution">
+                            <i class="bi bi-building"></i>
+                            Colegio de Ingenieros del Perú - CD Áncash Chimbote
+                        </p>
+                        <p class="cert-date">
+                            <i class="bi bi-calendar3"></i>
+                            Julio 2024 - 30 horas
+                        </p>
+                        <p class="cert-description">
+                            Principios de seguridad informática, análisis de vulnerabilidades,
+                            buenas prácticas y normativas de seguridad digital.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Certificación 3 -->
+                <div class="certification-card">
+                    <div class="cert-icon">
+                        <i class="bi bi-microsoft"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3>Microsoft Office Specialist - Excel</h3>
+                        <p class="cert-institution">
+                            <i class="bi bi-award"></i>
+                            Microsoft / Certiport
+                        </p>
+                        <p class="cert-date">
+                            <i class="bi bi-calendar3"></i>
+                            Abril 2024
+                        </p>
+                        <p class="cert-description">
+                            Certificación internacional que valida competencias avanzadas en
+                            Microsoft Excel: fórmulas, tablas dinámicas, macros y análisis de datos.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Certificación 4 -->
+                <div class="certification-card">
+                    <div class="cert-icon">
+                        <i class="bi bi-database-fill"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3>Fundamentos de SQL y Base de Datos</h3>
+                        <p class="cert-institution">
+                            <i class="bi bi-mortarboard"></i>
+                            Universidad Tecnológica del Perú (UTP)
+                        </p>
+                        <p class="cert-date">
+                            <i class="bi bi-calendar3"></i>
+                            Diciembre 2023 - 60 horas
+                        </p>
+                        <p class="cert-description">
+                            Curso extracurricular de SQL Server: diseño de bases de datos,
+                            consultas avanzadas, procedimientos almacenados y optimización.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Certificación 5 -->
+                <div class="certification-card">
+                    <div class="cert-icon">
+                        <i class="bi bi-code-square"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3>Desarrollo Web con Python y Django</h3>
+                        <p class="cert-institution">
+                            <i class="bi bi-laptop"></i>
+                            Platzi
+                        </p>
+                        <p class="cert-date">
+                            <i class="bi bi-calendar3"></i>
+                            Agosto 2023 - 45 horas
+                        </p>
+                        <p class="cert-description">
+                            Desarrollo de aplicaciones web usando el framework Django:
+                            MVT, ORM, autenticación, APIs REST y despliegue.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Certificación 6 -->
+                <div class="certification-card">
+                    <div class="cert-icon">
+                        <i class="bi bi-translate"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3>Inglés Intermedio B1</h3>
+                        <p class="cert-institution">
+                            <i class="bi bi-globe2"></i>
+                            Centro de Idiomas UTP
+                        </p>
+                        <p class="cert-date">
+                            <i class="bi bi-calendar3"></i>
+                            Junio 2023
+                        </p>
+                        <p class="cert-description">
+                            Certificación de nivel intermedio de inglés según el Marco Común
+                            Europeo de Referencia (MCER). Comprensión y producción oral y escrita.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Capacitaciones Adicionales -->
+            <div class="additional-training">
+                <h3 class="training-title">
+                    <i class="bi bi-journal-check"></i>
+                    Capacitaciones y Seminarios Adicionales
+                </h3>
+                <div class="training-list">
+                    <div class="training-item">
+                        <i class="bi bi-check-circle-fill"></i>
+                        <span>Seminario de Inteligencia Artificial - CIP Chimbote (2024)</span>
+                    </div>
+                    <div class="training-item">
+                        <i class="bi bi-check-circle-fill"></i>
+                        <span>Workshop de Git y GitHub - UTP Chimbote (2024)</span>
+                    </div>
+                    <div class="training-item">
+                        <i class="bi bi-check-circle-fill"></i>
+                        <span>Congreso Nacional de Ingeniería de Sistemas - Lima (2023)</span>
+                    </div>
+                    <div class="training-item">
+                        <i class="bi bi-check-circle-fill"></i>
+                        <span>Taller de Metodologías Ágiles Scrum - UTP (2023)</span>
+                    </div>
+                    <div class="training-item">
+                        <i class="bi bi-check-circle-fill"></i>
+                        <span>Charla de Transformación Digital - Cámara de Comercio del Santa (2023)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">
+                <i class="bi bi-envelope-fill"></i>
+                Contacto
+            </h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>¡Hablemos!</h3>
+                    <p>
+                        Estoy disponible para oportunidades laborales, proyectos freelance o
+                        colaboraciones. No dudes en contactarme.
+                    </p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="bi bi-envelope-fill"></i>
+                            <div>
+                                <span class="contact-label">Email</span>
+                                <a href="mailto:u23246461@utp.edu.pe">u23246461@utp.edu.pe</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="bi bi-telephone-fill"></i>
+                            <div>
+                                <span class="contact-label">Teléfono</span>
+                                <a href="tel:+51943567890">+51 943 567 890</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="bi bi-geo-alt-fill"></i>
+                            <div>
+                                <span class="contact-label">Ubicación</span>
+                                <span>Chimbote, Áncash, Perú</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="bi bi-linkedin"></i>
+                            <div>
+                                <span class="contact-label">LinkedIn</span>
+                                <a href="https://linkedin.com/in/carlosmendozar" target="_blank">linkedin.com/in/carlosmendozar</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="bi bi-github"></i>
+                            <div>
+                                <span class="contact-label">GitHub</span>
+                                <a href="https://github.com/carlosmendozar" target="_blank">github.com/carlosmendozar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Nombre Completo</label>
+                            <input type="text" id="name" name="name" required placeholder="Tu nombre">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Correo Electrónico</label>
+                            <input type="email" id="email" name="email" required placeholder="tu@email.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Asunto</label>
+                            <input type="text" id="subject" name="subject" required placeholder="Asunto del mensaje">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensaje</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Tu mensaje..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-submit">
+                            <i class="bi bi-send"></i>
+                            Enviar Mensaje
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="footer-logo">CM</span>
+                    <p>Carlos Mendoza Ríos</p>
+                    <p class="footer-subtitle">Estudiante de Ingeniería de Sistemas - UTP Chimbote</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#inicio">Inicio</a>
+                    <a href="#sobre-mi">Sobre Mí</a>
+                    <a href="#proyectos">Proyectos</a>
+                    <a href="#contacto">Contacto</a>
+                </div>
+                <div class="footer-social">
+                    <a href="https://github.com/carlosmendozar" target="_blank"><i class="bi bi-github"></i></a>
+                    <a href="https://linkedin.com/in/carlosmendozar" target="_blank"><i class="bi bi-linkedin"></i></a>
+                    <a href="mailto:u22108456@utp.edu.pe"><i class="bi bi-envelope-fill"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>
+                    <i class="bi bi-geo-alt"></i>
+                    Chimbote, Áncash, Perú
+                </p>
+                <p class="copyright">
+                    2025 - Portafolio Web | Estudiante UTP
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botón Volver Arriba -->
+    <button class="back-to-top" id="backToTop">
+        <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
